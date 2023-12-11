@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app{
+    background-color: #7C238C;
+    padding: 20px;
+    border-radius: 10px;
+}
+.app form input{
+    border: 0;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 5px rgba(0,0,0,0.2);
+    background: transparent;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+form .input{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+form .input input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145px  ;
+}
